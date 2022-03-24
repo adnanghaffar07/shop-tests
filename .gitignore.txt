@@ -1,0 +1,6 @@
+/.project
+/.settings
+/log
+/target
+/test-output
+/Web Automation Test Report.zip

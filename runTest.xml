@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Shop App Automation">
+
+	<listeners>
+		<listener class-name="com.shop.listeners.ExtentListeners" />
+	</listeners>
+	<test verbose="2" preserve-order="true"
+		name="Shop App Automation - Tests" thread-count="1"
+		parallel="methods">
+
+		<classes>		
+			<class name="com.shop.test.PlaceAnOrderTest" />
+		</classes>
+	</test>
+</suite> 
+ 	 	
