@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Shop App Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.shop.listeners.ExtentListeners"/>
+  </listeners>
+  <test parallel="methods" name="Shop App Automation - Tests(failed)">
+    <classes>
+      <class name="com.shop.test.PlaceAnOrderTest">
+        <methods>
+          <include name="VerifyOrderPlacement"/>
+          <include name="afterSuiteFlush"/>
+        </methods>
+      </class> <!-- com.shop.test.PlaceAnOrderTest -->
+    </classes>
+  </test> <!-- Shop App Automation - Tests(failed) -->
+</suite> <!-- Failed suite [Shop App Automation] -->

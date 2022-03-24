@@ -123,7 +123,12 @@ public class Utility extends ErrorCollector {
 		scrollIntoViewSmoothly(element, driver);
 		waitForElementVisibility(element, "30", driver);
 		waitForElementClickable(element, "20", driver);
-		element.click();
+		try {
+			element.click();
+		}catch (Exception e) {
+			clickUsingJavascriptExecutor(element,driver);
+		}
+		
 		Waits.wait3s();
 	}
 
@@ -232,7 +237,7 @@ public class Utility extends ErrorCollector {
 		je.executeScript("arguments[0].scrollIntoView();", Element);
 	}
 
-	public void clickUsingJavascriptExecutor(WebElement button, WebDriver driver) {
+	public static void clickUsingJavascriptExecutor(WebElement button, WebDriver driver) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", button);
 	}
@@ -567,6 +572,7 @@ public class Utility extends ErrorCollector {
 	}
 
 	public void sendKeysToWebElement(WebElement element, String keys, WebDriver driver) {
+		scrollIntoSpecificView(element, driver);
 		waitForElementVisibility(element, defaultTimeForVisibility, driver);
 		waitForElementToBeClickable(element, defaultTimeTOBeClickable, driver);
 		element.clear();
@@ -648,136 +654,5 @@ public class Utility extends ErrorCollector {
 		return amount.trim();
 	}
 	
-	//UnusedImportantMethods
-	
-//	public Object[][] getLogin(){
-//		Object[][] loginData = getData(testDataFile,testDataSheet,driver);
-//      	String appPassword=loginData[rowIndex][0].toString();
-//      	String email=loginData[rowIndex][1].toString();
-//      	String password=loginData[rowIndex][2].toString();
-//      	String pinCode=loginData[rowIndex][3].toString();
-//      	return loginData;
-//	}
-//	public static boolean isTestRunnable(String testName, ExcelReader excel){
-//	
-//	String sheetName="test_suite";
-//	int rows = excel.getRowCount(sheetName);
-//	
-//	
-//	for(int rNum=2; rNum<=rows; rNum++){
-//		
-//		String testCase = excel.getCellData(sheetName, "TCID", rNum);
-//		
-//		if(testCase.equalsIgnoreCase(testName)){
-//			
-//			String runmode = excel.getCellData(sheetName, "Runmode", rNum);
-//			
-//			if(runmode.equalsIgnoreCase("Y"))
-//				return true;
-//			else
-//				return false;
-//		}
-//		
-//		
-//	}
-//	return false;
-//}
-//	@DataProvider(name="dp")
-//	public Object[][] getData(Method m) {
-//
-//		String sheetName = m.getName();
-//		int rows = excel.getRowCount(sheetName);
-//		int cols = excel.getColumnCount(sheetName);
-//
-//		Object[][] data = new Object[rows - 1][1];
-//		
-//		Hashtable<String,String> table = null;
-//
-//		for (int rowNum = 2; rowNum <= rows; rowNum++) { // 2
-//
-//			table = new Hashtable<String,String>();
-//			
-//			for (int colNum = 0; colNum < cols; colNum++) {
-//
-//				// data[0][0]
-//				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));
-//				data[rowNum - 2][0] = table;
-//			}
-//
-//		}
-//
-//		return data;
-//
-//	}
-//	private static Credential authorize() throws Exception {
-//    String credentialLocation = System.getProperty("user.dir") + "/src/test/resources/config/credentials.json";
-//    
-//    GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JacksonFactory.getDefaultInstance(), new FileReader(credentialLocation));
-//
-//    List<String> scopes = Arrays.asList(SheetsScopes.SPREADSHEETS);
-//
-//    GoogleAuthorizationCodeFlow googleAuthorizationCodeFlow = new GoogleAuthorizationCodeFlow
-//            .Builder(GoogleNetHttpTransport.newTrustedTransport(), JacksonFactory.getDefaultInstance(), clientSecrets, scopes)
-//            .setDataStoreFactory(new FileDataStoreFactory(new File(System.getProperty("user.dir") + "/src/test/resources/data/")))
-//            .setAccessType("offline")
-//            .build();
-//
-//    return new AuthorizationCodeInstalledApp(googleAuthorizationCodeFlow, new LocalServerReceiver()).authorize("user");
-//}
-//public static String[][] getData(String spreadSheetId, String sheetName, String rangeDataToRead) throws Exception {
-//    Sheets sheet = new Sheets(GoogleNetHttpTransport.newTrustedTransport(), JacksonFactory.getDefaultInstance(), authorize());
-//    
-//    List<List<Object>> data = sheet.spreadsheets().values()
-//            .get(spreadSheetId, rangeDataToRead)
-//            .execute().getValues();
-//    Sheets.Spreadsheets.Get request = sheet.spreadsheets().get(spreadSheetId);
-//    Spreadsheet response = request.execute();
-//    Sheet reqSheet = response.getSheets().get(0);
-//    System.out.print(reqSheet.getData().get(0).getRowData().get(0));
-//    printString("Response",driver);
-//    System.out.print(response);
-//    printString("Response",driver);
-//    
-//    return convertToArray(data);
-//}
-//private static String[][] convertToArray(List<List<Object>> data) {
-//    String[][] array = new String[data.size()][];
-//
-//    int i = 0;
-//    for (List<Object> row : data) {
-//        array[i++] = row.toArray(new String[row.size()]);
-//    }
-//    return array;
-//}
-//	public static String captureWebScreenShot(WebDriver driver, String fileName) throws IOException {
-//	String destinationPath = null;
-//	String filePath = null;
-//	try {
-//		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-//		File src = takesScreenshot.getScreenshotAs(OutputType.FILE);
-//		BasicFileReporter reporter = (BasicFileReporter) ExtentTestManager.getTest().getExtent().getStartedReporters().get(0);
-//		File report = reporter.getFileFile();
-//		String folder = report.getParent();
-//		filePath = "screenshot/" + fileName + System.currentTimeMillis() + ".png";
-//		destinationPath = folder + File.separator +  "screenshot/" + fileName + System.currentTimeMillis() + ".png";
-//		File destination = new File(destinationPath);
-//		destinationPath = destination.getAbsolutePath();
-//		FileUtils.copyFile(src, destination);
-//	} catch (Exception e) {
-//		e.printStackTrace();
-//		
-//	}
-//	return filePath;
-//}
-//
-//public static void attachWebScreenShotToReport( String fileName) {
-//	try {
-//		String imagePath = captureWebScreenShot(getDriver(), fileName);
-//		ErrorCollector.extentScreenshot(imagePath,"Screen Capture");
-//	} catch (Exception e) {
-//	System.out.print(e.toString());
-//	}
-//
-//}
 
 }

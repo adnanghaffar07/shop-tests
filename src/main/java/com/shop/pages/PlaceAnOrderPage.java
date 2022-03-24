@@ -11,10 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.shop.base.BaseClass;
 
 public class PlaceAnOrderPage extends BaseClass {
-	
-
 	private WebDriver podriver = null;
-	
 	
 	@FindBy(xpath = ("//h2[@class='name']"))
 	WebElement productName;
@@ -26,7 +23,7 @@ public class PlaceAnOrderPage extends BaseClass {
 	WebElement productDescription;
 	
 	@FindBy(xpath = ("//a[text()='Add to cart']"))
-	WebElement AddtoCardButton;
+	WebElement addToCardButton;
 	
 	@FindBy(xpath = ("//button[text()='Place Order']"))
 	WebElement placeOrder;
@@ -50,7 +47,7 @@ public class PlaceAnOrderPage extends BaseClass {
 	WebElement buyerYear;
 	
 	@FindBy(xpath = ("//button[text()='Purchase']"))
-	WebElement Purchase;
+	WebElement purchase;
 	
 	@FindBy(xpath = ("//label[@id='totalm']"))
 	WebElement totalBalance;
@@ -60,19 +57,13 @@ public class PlaceAnOrderPage extends BaseClass {
 	
 	@FindBy(xpath = ("//button[text()='OK']"))
 	WebElement successPopupOk;
-	
-	
-	
-	
-	
-	
+
 	
 	public PlaceAnOrderPage(WebDriver driverParam) {
 		this.podriver = driverParam;
 		PageFactory.initElements(this.podriver, this);
 	}
 
-	
 	
 	public boolean verifyDeletedProductFromCart(String Product,WebDriver driver) {
 		try {
@@ -82,61 +73,50 @@ public class PlaceAnOrderPage extends BaseClass {
 			return false;
 		}
 		
-		
 	}
 	
 	
 	public void enterName(String val, WebDriver driver) {
-		waitUntilElementDisplayed(buyerName, driver);
 		sendKeysToWebElement(buyerName, val, driver);
 	}
 	public void enterCountry(String val, WebDriver driver) {
-		waitUntilElementDisplayed(buyerCountry, driver);
 		sendKeysToWebElement(buyerCountry, val, driver);
 	}
 	public void enterCity(String val, WebDriver driver) {
-		waitUntilElementDisplayed(buyerCity, driver);
 		sendKeysToWebElement(buyerCity, val, driver);
 	}
 	public void enterCard(String val, WebDriver driver) {
-		waitUntilElementDisplayed(buyerCard, driver);
 		sendKeysToWebElement(buyerCard, val, driver);
 	}
 	public void enterMonth(String val, WebDriver driver) {
-		waitUntilElementDisplayed(buyerMonth, driver);
 		sendKeysToWebElement(buyerMonth, val, driver);
 	}
 	public void enterYear(String val, WebDriver driver) {
-		waitUntilElementDisplayed(buyerYear, driver);
 		sendKeysToWebElement(buyerYear, val, driver);
 	}
 	
 	
 
 	public void clickPurchase(WebDriver driver) {
-		waitUntilElementDisplayed(Purchase, driver);
-		click(Purchase, driver);
+		click(purchase, driver);
+		
 	}
 	public void deleteProductFromCart(String Product,WebDriver driver) {
-		waitUntilElementDisplayed(driver.findElement(By.xpath("//td[text()='"+Product+"']//following-sibling::td//a[text()='Delete']")), driver);
+		
 		click(driver.findElement(By.xpath("//td[text()='"+Product+"']//following-sibling::td//a[text()='Delete']")), driver);
 	}
 	
 	public void clickPlaceOrderButton(WebDriver driver) {
-		waitUntilElementDisplayed(placeOrder, driver);
 		click(placeOrder, driver);
 	}
 	
 	public void clickProduct(String product ,WebDriver driver) {
-		waitUntilElementDisplayed(driver.findElement(By.xpath("//a[text()='"+product+"']")), driver);
 		click(driver.findElement(By.xpath("//a[text()='"+product+"']")), driver);
 	}
 	public void clickAddtoCardButton(WebDriver driver) {
-		waitUntilElementDisplayed(AddtoCardButton, driver);
-		click(AddtoCardButton, driver);
+		click(addToCardButton, driver);
 	}
 	public void clickSuccessPopupOk(WebDriver driver) {
-		waitUntilElementDisplayed(successPopupOk, driver);
 		click(successPopupOk, driver);
 	}
 	
@@ -154,7 +134,7 @@ public class PlaceAnOrderPage extends BaseClass {
 		waitUntilElementDisplayed(productDescription, driver);
 		return getElementText(productDescription, driver);
 	}
-	public String gettotalBalance(WebDriver driver) {
+	public String getTotalBalance(WebDriver driver) {
 		waitUntilElementDisplayed(totalBalance, driver);
 		return getElementText(totalBalance, driver);
 	}
@@ -236,7 +216,7 @@ public class PlaceAnOrderPage extends BaseClass {
 	}
 	
 	
-	public ArrayList<String> VerifySuccessPopupInfo(WebDriver driver,String successPopupBuyerInfo, String TotalBill, String Card, String Name, int steps) {
+	public ArrayList<String> verifySuccessPopupInfo(WebDriver driver,String successPopupBuyerInfo, String TotalBill, String Card, String Name, int steps) {
 		ArrayList<String> testSteps = new ArrayList<>();
 		String[] List = successPopupBuyerInfo.split("\n");
 		testSteps.add("Step "+(++steps)+" : Generated Bill ID:  <b>'"+List[0].replace("Id:","").trim()+"'</b>");

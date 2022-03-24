@@ -19,8 +19,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
@@ -37,27 +35,21 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass extends Utility {
 
-	public static boolean closeDriver = false;
 	public static RemoteWebDriver driver;
 	public static WebDriverWait wait;
 	public static String browser;
-	public static String env;
 	public static FileInputStream fis;
-//	public static Logger log = Logger.getLogger("devpinoyLogger");
 	public static ExtentTest extentReport;
 	public static SoftAssert softAssert;
 	public static Integer waitInSeconds = 5;
 	public static Logger app_logs = Logger.getLogger("BaseClass");
-	// This is the default path to imageUpload
-	public static String imagePath = System.getProperty("user.dir") + "\\src\\test\\resources\\images\\";
-	public static String UtilityscreenshotPath;
-	public static String UtilityscreenshotName;
-
 	public static final int defaultTimeForVisibility = 30;
 	public static final int defaultTimeTOBeClickable = 30;
 	private static String screenshotPath;
 	private static String screenshotNam;
-	
+	public static String url = PropertiesReader.getPropertyValue("url");
+	public static String log4jConfPath = System.getProperty("user.dir") +"/src/test/resources/config/log4j.properties";
+	public static String ReportPath = System.getProperty("user.dir")+"/reports/";
 	
 	
 
@@ -73,39 +65,22 @@ public class BaseClass extends Utility {
 
 	public static ExtentTest test;
 	private static ExtentReports extent = ExtentManager
-			.createInstance(System.getProperty("user.dir") + "/reports/" + "Web Automation Shop.html");
+			.createInstance(System.getProperty("user.dir") + "/reports/" + "Web_Automation_Shop_"+getTimeStamp()+".html");
 
 	public static WebDriver initConfiguration() {
-		WebDriver localD = null;
-		String log4jConfPath = System.getProperty("user.dir") +"/log4j.properties";
+		WebDriver localDriver = null;	
 		PropertyConfigurator.configure(log4jConfPath);
-		String osName = System.getProperty("os.name");
-		if (osName.contains("Windows")) {
-			excelFilePath = System.getProperty("user.dir") + "\\src\\test\\resources\\data\\";
-			imagePath = System.getProperty("user.dir") + "\\src\\test\\resources\\images\\";
-		} else {
-			excelFilePath = System.getProperty("user.dir") + "/src/test/resources/data/";
-			imagePath = System.getProperty("user.dir") + "/src/test/resources/images/";
-		}
-		System.out.println("OS : " + osName);
-		System.out.println("User Dir : " + System.getProperty("user.dir"));
-		System.out.println("excelFilePath  : " + excelFilePath);
-		System.out.println("imagePath   : " + imagePath);
 		softAssert = new SoftAssert();
 
-		System.out.println("OS : " + System.getProperty("os.name"));
-		System.out.println("User Dir : " + System.getProperty("user.dir"));
+		app_logs.info("OS : " + System.getProperty("os.name"));
+		app_logs.info("User Dir : " + System.getProperty("user.dir"));
 		if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
 			browser = System.getenv("browser");
-			System.out.println("Browser: " + browser);
+			app_logs.info("Browser: " + browser);
 		} else {
 			browser = PropertiesReader.getPropertyValue("browser");
 		}
-		if (browser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "gecko.exe");
-			localD = new FirefoxDriver();
-//			log.debug("Firefox Driver initialized");
-		} else if (browser.equals("chrome")) {
+		 if (browser.equals("chrome")) {
 
 			WebDriverManager.chromedriver().setup();
 			Map<String, Object> prefs = new HashMap<String, Object>();
@@ -120,23 +95,17 @@ public class BaseClass extends Utility {
 			options.addArguments("--disable-infobars");
 			options.addArguments("window-size=1920,1080");
 //			options.addArguments("--headless");
-
 //			options.addArguments("--disable-gpu");
 			try {
-				localD = new ChromeDriver(options);
+				localDriver = new ChromeDriver(options);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 
-//			driver.manage().window().maximize();
-//			log.debug("Chrome driver intialized");
-		} else if (browser.equals("ie")) {
-			System.setProperty("webdriver.ie.driver",
-					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\IEDriverServer.exe");
-			localD = new InternetExplorerDriver();
-		}
-		localD.manage().timeouts().pageLoadTimeout(10, TimeUnit.MINUTES);
-		return localD;
+		} 
+		 localDriver.manage().window().maximize();
+		localDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.MINUTES);
+		return localDriver;
 	}
 
 	/////////////////////////////////////////////////
@@ -209,18 +178,6 @@ public class BaseClass extends Utility {
 		}
 	}
 
-
-	public static void UtilitycaptureScreenshot() throws IOException {
-
-		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-		Date d = new Date();
-		UtilityscreenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
-
-		FileUtils.copyFile(scrFile,
-				new File(System.getProperty("user.dir") + "/target/surefire-reports/html/" + UtilityscreenshotName));
-
-	}
 
 
 	@AfterSuite

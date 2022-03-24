@@ -1,0 +1,396 @@
+2022-03-24 13:43:39,567 - BaseClass -INFO - verify Order Placement:1035932299
+2022-03-24 13:43:39,638 - BaseClass -INFO -  Navigate to url
+2022-03-24 13:43:41,486 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-24 13:43:42,200 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-24 13:43:45,499 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-24 13:43:48,736 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-24 13:43:52,016 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-24 13:43:56,412 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-24 13:43:56,412 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-24 13:43:56,412 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-24 13:43:56,416 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-24 13:43:59,624 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-24 13:43:59,625 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-24 13:43:59,626 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-24 13:43:59,632 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-24 13:44:03,690 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-24 13:44:06,927 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-24 13:44:12,184 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-24 13:44:12,184 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-24 13:44:12,186 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-24 13:44:12,186 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-24 13:44:15,392 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-24 13:44:15,393 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-24 13:44:15,393 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-24 13:44:15,402 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-24 13:44:19,871 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-24 13:44:23,032 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-24 13:44:53,081 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-24 13:44:53,798 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-24 13:44:57,131 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-24 13:44:57,131 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-24 13:44:58,562 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-24 13:44:59,831 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-24 13:45:01,112 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-24 13:45:02,386 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-24 13:45:03,648 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-24 13:45:04,908 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-24 13:45:08,218 - BaseClass -INFO - Verifying Amount :  <b>'790'</b>
+2022-03-24 13:45:08,219 - BaseClass -INFO - <b>'790'</b> Amount Is Verified
+2022-03-24 13:45:08,220 - BaseClass -INFO - Verifying Card: '12341234123412'
+2022-03-24 13:45:08,220 - BaseClass -INFO - '12341234123412' Card Number Is Verified
+2022-03-24 13:45:08,221 - BaseClass -INFO - Verifying Name : 'AdnanGhaffar'
+2022-03-24 13:45:08,221 - BaseClass -INFO - 'AdnanGhaffar' Name is Verified
+2022-03-24 13:45:08,586 - BaseClass -INFO -  click On <b>'Ok'</b>
+2022-03-24 13:45:12,401 - BaseClass -INFO -  Close the Browser
+2022-03-24 15:17:41,074 - BaseClass -INFO - verify Order Placement:1448471074
+2022-03-24 15:17:41,135 - BaseClass -INFO -  Navigate to url
+2022-03-24 15:17:43,965 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-24 15:17:44,735 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-24 15:17:48,140 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-24 15:17:51,363 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-24 15:17:54,572 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-24 15:17:58,897 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-24 15:17:58,898 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-24 15:17:58,898 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-24 15:17:58,899 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-24 15:18:02,160 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-24 15:18:02,162 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-24 15:18:02,162 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-24 15:18:02,169 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-24 15:18:06,077 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-24 15:18:09,345 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-24 15:18:13,675 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-24 15:18:13,676 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-24 15:18:13,676 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-24 15:18:13,676 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-24 15:18:16,895 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-24 15:18:16,896 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-24 15:18:16,896 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-24 15:18:16,913 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-24 15:18:21,635 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-24 15:18:24,797 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-24 15:18:54,871 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-24 15:18:55,480 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-24 15:18:58,830 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-24 15:18:58,830 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-24 15:19:00,116 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-24 15:19:01,388 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-24 15:19:02,670 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-24 15:19:03,989 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-24 15:19:05,233 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-24 15:19:06,516 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-24 15:19:09,895 - BaseClass -INFO - Verifying Amount :  <b>'790'</b>
+2022-03-24 15:19:09,895 - BaseClass -INFO - <b>'790'</b> Amount Is Verified
+2022-03-24 15:19:09,895 - BaseClass -INFO - Verifying Card: '12341234123412'
+2022-03-24 15:19:09,896 - BaseClass -INFO - '12341234123412' Card Number Is Verified
+2022-03-24 15:19:09,897 - BaseClass -INFO - Verifying Name : 'AdnanGhaffar'
+2022-03-24 15:19:09,897 - BaseClass -INFO - 'AdnanGhaffar' Name is Verified
+2022-03-24 15:19:10,281 - BaseClass -INFO -  click On <b>'Ok'</b>
+2022-03-24 15:19:14,135 - BaseClass -INFO -  Close the Browser
+2022-03-25 00:26:29,940 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:26:29,944 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:26:33,235 - BaseClass -INFO - verify Order Placement:1040960037
+2022-03-25 00:26:33,310 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:26:35,414 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:26:36,081 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:26:39,646 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:26:42,825 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:26:46,020 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:26:50,349 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:26:50,350 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:26:50,350 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:26:50,350 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:26:53,597 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:26:53,598 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:26:53,598 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:26:53,607 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:26:57,358 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:27:00,595 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:27:04,607 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:27:04,608 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:27:04,608 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:27:04,608 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:27:07,816 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:27:07,816 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:27:07,816 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:27:07,823 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:27:12,062 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:27:15,201 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:27:45,323 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:27:45,878 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:27:49,211 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:27:49,211 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:27:50,524 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:27:51,855 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:27:53,120 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:27:54,414 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:27:55,681 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:27:56,958 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-25 00:28:27,001 - BaseClass -INFO - Failed: verify Order Placement <br><b>Exception:</b><br> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='purchase']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OBR5FT2', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 41b29e7fd7056831a4eb801772358d87
+*** Element info: {Using=xpath, value=//button[text()='purchase']}
+2022-03-25 00:28:35,729 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:28:35,731 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:28:37,533 - BaseClass -INFO - verify Order Placement:1103104331
+2022-03-25 00:28:37,588 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:28:39,458 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:28:40,163 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:28:43,727 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:28:46,914 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:28:50,132 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:28:54,480 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:28:54,481 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:28:54,481 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:28:54,482 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:28:57,735 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:28:57,735 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:28:57,736 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:28:57,746 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:29:01,564 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:29:04,744 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:29:08,951 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:29:08,951 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:29:08,952 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:29:08,953 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:29:12,152 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:29:12,154 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:29:12,155 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:29:12,161 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:29:16,335 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:29:19,488 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:29:49,581 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:29:50,129 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:29:53,456 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:29:53,457 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:29:54,770 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:29:56,047 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:29:57,337 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:29:58,635 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:29:59,910 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:30:01,171 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-25 00:30:31,236 - BaseClass -INFO - Failed: verify Order Placement <br><b>Exception:</b><br> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='purchase']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OBR5FT2', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 78b6db5f73e946492cdd59f603d52d24
+*** Element info: {Using=xpath, value=//button[text()='purchase']}
+2022-03-25 00:41:07,041 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:41:07,045 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:41:08,991 - BaseClass -INFO - verify Order Placement:2037678314
+2022-03-25 00:41:09,060 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:41:11,957 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:41:12,574 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:41:16,023 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:41:19,291 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:41:22,589 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:41:27,037 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:41:27,038 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:41:27,039 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:41:27,040 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:41:30,360 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:41:30,361 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:41:30,362 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:41:30,376 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:41:34,222 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:41:37,575 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:41:41,841 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:41:41,842 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:41:41,843 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:41:41,843 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:41:45,144 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:41:45,145 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:41:45,146 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:41:45,160 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:41:49,832 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:41:53,068 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:42:23,159 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:42:23,787 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:42:27,216 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:42:27,217 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:42:28,564 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:42:29,899 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:42:31,238 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:42:32,578 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:42:33,900 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:46:07,336 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:46:07,339 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:46:09,254 - BaseClass -INFO - verify Order Placement:1103104331
+2022-03-25 00:46:09,324 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:46:10,977 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:46:11,716 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:46:15,032 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:46:18,311 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:46:21,576 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:46:25,926 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:46:25,926 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:46:25,927 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:46:25,928 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:46:29,177 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:46:29,178 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:46:29,178 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:46:29,191 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:46:33,027 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:46:36,299 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:46:40,384 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:46:40,384 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:46:40,384 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:46:40,386 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:46:43,619 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:46:43,620 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:46:43,620 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:46:43,629 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:46:47,944 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:46:51,152 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:47:21,298 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:47:21,892 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:47:25,248 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:47:25,249 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:47:26,579 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:47:27,904 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:47:29,211 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:47:30,522 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:47:31,834 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:47:33,141 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-25 00:48:03,181 - BaseClass -INFO - Failed: verify Order Placement <br><b>Exception:</b><br> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='purchase']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OBR5FT2', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56276}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 424ab15a5a98a3287ead09c2848ecd92
+*** Element info: {Using=xpath, value=//button[text()='purchase']}
+2022-03-25 00:49:13,115 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:49:13,119 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:49:15,075 - BaseClass -INFO - verify Order Placement:1715539497
+2022-03-25 00:49:15,137 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:49:17,197 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:49:17,732 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:49:21,182 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:49:24,386 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:49:27,669 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:49:31,907 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:49:31,908 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:49:31,909 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:49:31,909 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:49:35,159 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:49:35,160 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:49:35,161 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:49:35,171 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:49:38,953 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:49:42,181 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:49:46,186 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:49:46,187 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:49:46,188 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:49:46,188 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:49:49,376 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:49:49,376 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:49:49,377 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:49:49,387 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:49:53,614 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:49:56,753 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:50:26,829 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:50:27,403 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:50:30,771 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:50:30,772 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:50:32,085 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:50:33,374 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:50:34,649 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:50:35,942 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:50:37,220 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:51:00,315 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:51:00,319 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:51:02,258 - BaseClass -INFO - verify Order Placement:1715539497
+2022-03-25 00:51:02,325 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:51:03,778 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:51:04,424 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:51:07,715 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:51:10,965 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:51:14,252 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:51:18,527 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:51:18,528 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:51:18,529 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:51:18,529 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:51:21,813 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:51:21,814 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:51:21,815 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:51:21,830 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:51:25,788 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:51:29,121 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:51:33,369 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:51:33,369 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:51:33,370 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:51:33,371 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:51:36,658 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:51:36,659 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:51:36,659 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:51:36,670 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:51:41,338 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:51:44,541 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:52:14,687 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:52:15,302 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:52:18,689 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:52:18,690 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:52:20,030 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:52:21,352 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:52:22,679 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:52:24,034 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:52:25,358 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:54:50,919 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-25 00:55:51,644 - BaseClass -INFO - OS : Windows 10
+2022-03-25 00:55:51,647 - BaseClass -INFO - User Dir : C:\Users\DELL\Desktop\Shop\Shop\shop-tests
+2022-03-25 00:55:53,409 - BaseClass -INFO - verify Order Placement:178708423
+2022-03-25 00:55:53,469 - BaseClass -INFO -  Navigate to url
+2022-03-25 00:55:55,261 - BaseClass -INFO - Verifying <b>'HomePage'</b>
+2022-03-25 00:55:55,924 - BaseClass -INFO - click On <b>'Monitors'</b> Category
+2022-03-25 00:55:59,238 - BaseClass -INFO -  click On <b>'Phone'</b> Category
+2022-03-25 00:56:02,493 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:56:05,782 - BaseClass -INFO - click On <b>'Sony vaio i5'</b> Category
+2022-03-25 00:56:10,056 - BaseClass -INFO - Laptop Name:  <b>'Sony vaio i5'</b>
+2022-03-25 00:56:10,057 - BaseClass -INFO - Laptop Price:  <b>'$790 *includes tax'</b>
+2022-03-25 00:56:10,058 - BaseClass -INFO - Laptop Description:  <b>'Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.'</b>
+2022-03-25 00:56:10,058 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:56:13,324 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:56:13,325 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:56:13,326 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:56:13,340 - BaseClass -INFO -  click On <b>'Home'</b>
+2022-03-25 00:56:17,158 - BaseClass -INFO -  click On <b>'Laptops'</b> Category
+2022-03-25 00:56:20,413 - BaseClass -INFO - click On <b>'Dell i7 8gb'</b> Category
+2022-03-25 00:56:24,600 - BaseClass -INFO - Laptop Name:  <b>'Dell i7 8gb'</b>
+2022-03-25 00:56:24,600 - BaseClass -INFO - Laptop Price:  <b>'$700 *includes tax'</b>
+2022-03-25 00:56:24,601 - BaseClass -INFO - Laptop Description:  <b>'6th Generation Intel Core i7-6500U Dual-Core Processor 2.5 GHz (max boost speed up to 3.1GHz) 4MB L3 Cache, 8GB DDR4 1600 MHz, 1TB 5400 RPM HDD15.6 in Full HD LED-backlit touchscreen with Truelife (1920 x 1080), 10-finger multi-touch support, Intel HD Graphics 520 with shared graphics memory'</b>
+2022-03-25 00:56:24,602 - BaseClass -INFO - click On <b>'Add To Cart'</b>
+2022-03-25 00:56:27,884 - BaseClass -INFO - Verifing Popup Message': <b> Product added</b>
+2022-03-25 00:56:27,885 - BaseClass -INFO - Popup Message<b> 'Product added'</b> is verified
+2022-03-25 00:56:27,886 - BaseClass -INFO - click On PopUp <b>'OK'</b>
+2022-03-25 00:56:27,895 - BaseClass -INFO -  click On <b>'Cart'</b>
+2022-03-25 00:56:32,132 - BaseClass -INFO -  Removing <b>'Dell i7 8gb'</b>
+2022-03-25 00:56:35,312 - BaseClass -INFO -  Verifing <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:57:05,447 - BaseClass -INFO - Verified:  <b>'Dell i7 8gb'</b> is deleted successfully
+2022-03-25 00:57:06,026 - BaseClass -INFO -  click On <b>'place Order'</b>
+2022-03-25 00:57:09,448 - BaseClass -INFO -  Total Bill:  <b>'790'</b>
+2022-03-25 00:57:09,449 - BaseClass -INFO -  Entering Name:  <b>AdnanGhaffar</b>
+2022-03-25 00:57:10,764 - BaseClass -INFO -  Entering Country:  <b>UnitedKingdom</b>
+2022-03-25 00:57:12,060 - BaseClass -INFO -  Entering City:  <b>England</b>
+2022-03-25 00:57:13,395 - BaseClass -INFO -  Entering Card:  <b>12341234123412</b>
+2022-03-25 00:57:14,691 - BaseClass -INFO -  Entering Month:  <b>Jan</b>
+2022-03-25 00:57:15,877 - BaseClass -INFO -  Entering Year:  <b>2022</b>
+2022-03-25 00:57:17,079 - BaseClass -INFO -  click On <b>'Purchase'</b>
+2022-03-25 00:57:20,372 - BaseClass -INFO - Verifying Amount :  <b>'790'</b>
+2022-03-25 00:57:20,373 - BaseClass -INFO - <b>'790'</b> Amount Is Verified
+2022-03-25 00:57:20,373 - BaseClass -INFO - Verifying Card: '12341234123412'
+2022-03-25 00:57:20,373 - BaseClass -INFO - '12341234123412' Card Number Is Verified
+2022-03-25 00:57:20,374 - BaseClass -INFO - Verifying Name : 'AdnanGhaffar'
+2022-03-25 00:57:20,374 - BaseClass -INFO - 'AdnanGhaffar' Name is Verified
+2022-03-25 00:57:20,622 - BaseClass -INFO -  click On <b>'Ok'</b>
+2022-03-25 00:57:24,438 - BaseClass -INFO -  Close the Browser
