@@ -1,0 +1,6 @@
+{
+  "registerLink": ".sub-title a.action-link",
+  "emailField": ".form-well > :nth-child(1) > .form-control",
+  "passwordField": ".form-well > :nth-child(2) > .form-control",
+  "loginButton": ".form-well > .btn"
+}

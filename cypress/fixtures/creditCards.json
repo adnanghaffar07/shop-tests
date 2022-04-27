@@ -1,0 +1,9 @@
+{
+    "CardHolderName": "Automation Card",
+    "CardNumber": "4242424242424242",
+    "last4Digits":"4242",
+    "CVC" : "123",
+    "CardExpiryMonth": "01",
+    "CardExpiryYear": "2023",
+    "CardZipCode": "94203"
+}

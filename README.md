@@ -1,32 +1,28 @@
-# Shop Web Automation
-# How to Run The Tests
+# Shop Test Automation
 
-1. Clone the repo
-2. Open the project in Eclipse/Intellij
-3. Open project explorer.
-4. Update pom.xml maven file.
-5. Go to the TestNG file name runTest.xml. You can find it following path : src/test/resources/runner/runTest.xml
-6. Right click in the open file and select Run As > TestNG Suite
-7. The tests will start running.
+## Installation
 
-# How to configure maven on windows if not installed
-1. Download and extract maven from
-https://maven.apache.org/download.cgi
-2. Copy path to maven bin folder
-3. Right click 'This PC'
-4. Click Properties > Advanced System Settings > Environment Variables 
-5. In 'System Variables' click on 'Path'
-6. Click on 'Edit'
-7. Click on 'New'
-8. Add path to extracted maven bin folder 
-9. Click 'OK' > 'OK' > 'OK' 
-10. Restart system
-11. For Mac please follow this link : https://www.baeldung.com/install-maven-on-windows-linux-mac
-	
+1. Download and install Visual Studio Code (https://code.visualstudio.com/download)
+2. Download and install Node.js (https://nodejs.org/en/download/)
+3. Clone this Git repository to your local machine
+4. Open Terminal within Visual Studio Code and install the dependencies by running `npm install` from the terminal
 
-# How to View Report
-1. The report is generated in the HTML format.
-2. Refresh project.
-3. Go to 'reports' folder.
-4. Open the file named "Web Automation Shop.html" in your favourite browser.
-5. The Report will be shown with screenshots.
+## Structure Information
+
+1. Downloads (It contains all files that are downloaded during tests run).
+2. Fixture (It contains all tests data that is being used in the tests).
+3. Integration (It contains all tests feature files).
+4. Plugins (It contains the files that extends the behavior of Cypress).
+5. Screenshots (It contains screenshots for the tests failures).
+6. Support (It contains all files that have reuseable code).
+7. Videos (It contains video recording for test execution).
+8. Json files are the Node Project and Cypress configuration files.
+
+## Local Usage
+
+The file 'package.json' contains the commands to run scripts, and these are all declared in 'scripts' object. Each command is run from the terminal and must be prefixed with `npm run`, for example `npm run cypress:open`
+
+1. `cypress:open` Opens the Cypress Test Runner
+2. `test-record` Runs the feature file(s) with specified tags in a Chrome browser and records it in the Cypress Dashboard, with Slack integration. Specify tags within "TAGS=" and "--tag" prior to running
+3. `test-chrome` Runs the feature file(s) with specified tags in a Chrome browser. Specify tags within "TAGS=" and "--tag" prior to running
+4. `test` Runs the feature file(s) with specified tags in a headless Chrome browser. Specify tags within "TAGS=" and "--tag" prior to running
