@@ -1,8 +1,8 @@
-@Login
-Feature: Login
+@Order
+Feature: Order
 
         @Shop
-        Scenario: As Customer I can login into my account
+        Scenario: As Customer I order a product
             Given I visit the app url
              When I see the home page
               And I click on category: Laptops
