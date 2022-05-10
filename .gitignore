@@ -1,4 +1,2 @@
-report
 node_modules
-screenshots
-videos
+.vscode
