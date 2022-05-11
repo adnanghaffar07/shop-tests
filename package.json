@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js -t 'not (@mute or @quarantine)' -p default -p html_report ./test_features/features --require ./test_features",
-    "test-only": "./node_modules/.bin/cucumber-js -t",
+    "test-only": "./node_modules/.bin/cucumber-js  -p default -p html_report",
     "test-one": "./node_modules/.bin/cucumber-js -p default -p html_report --tags \"@testOne\""
   },
   "repository": {

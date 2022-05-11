@@ -1,9 +1,9 @@
-const { When } = require('@cucumber/cucumber');
+const { When,Then } = require('@cucumber/cucumber');
 const { retry } = require('../../../utils/retry');
 const { clickOnElement, isElementLocated, elementNotLocated } = require('../../../utils/elements');
 const { waitForLoader } = require('../../../utils/wait');
 
-When(/^I click on the '(.+)' (link|tab|button|text)(?: and wait until it (disappear))?/, async function (name, type, disappear) {
+Then(/^I click on the '(.+)' (link|tab|button|text)(?: and wait until it (disappear))?/, async function (name, type, disappear) {
     let locator = '';
     if (type === 'link') {
         locator = this.locators.global.link.replace('{txt}', name);
@@ -31,5 +31,6 @@ When(/^I click on the '(.+)' (link|tab|button|text)(?: and wait until it (disapp
 });
 
 When(/^I reload the page$/, async function () {
+    await Promise.delay(2000);
     await this.driver.navigate().refresh();
 });

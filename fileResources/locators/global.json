@@ -1,0 +1,8 @@
+{
+    "allText": "//*[contains(text(), '{txt}')]",
+    "commonLoader": "//div[@class='common-spinner'] | //div[@class='spinner']",
+    "link": "//a[contains(text(), '{txt}')]",
+    "tabs": "//a[contains(@class, 'tab-button') and text()='{txt}']",
+    "button": "//button[contains(text(), '{txt}')]",
+    "logoutButton": "//span[contains(@class, 'logout')]"
+}

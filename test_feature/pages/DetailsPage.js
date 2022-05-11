@@ -7,8 +7,8 @@ class DetailsPage {
   constructor(world) {
     this.world = world;
   }
-  getHiringClient() {
-    return cy.xpath("//div[@class='select-wrapper']//div[contains(@class,'indicatorContainer')]//*[local-name()='svg']");
+  getHomePage() {
+    return cy.xpath("(//*[contains(text(),'PRODUCT STORE')])[1]");
   }
 
 

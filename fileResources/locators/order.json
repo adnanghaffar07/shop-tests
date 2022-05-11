@@ -1,3 +1,13 @@
 {
-    "productCart": ".card-title"
+    "productCart": ".card-title",
+    "homePage": "(//*[contains(text(),'PRODUCT STORE')])[1]",
+    "productName":"//*[contains(@class,'name')]",
+    "productPrice":"//*[contains(@class,'price-container')]",
+    "productDescription":"//*[contains(@class,'description')]",
+    "name": "//input[@id='name']",
+    "city": "//input[@id='city']",
+    "country": "//input[@id='country']",
+    "creditCard":"//input[@id='card']",
+    "creditCardMonth":"//input[@id='month']",
+    "creditCardYear":"//input[@id='year']" 
 }
